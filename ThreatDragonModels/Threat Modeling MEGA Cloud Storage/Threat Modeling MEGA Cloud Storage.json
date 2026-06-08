@@ -1,0 +1,37 @@
+{
+  "version": "2.6.2",
+  "summary": {
+    "title": "Threat Modeling MEGA Cloud Storage",
+    "owner": "Dimas Cahya Firdaus",
+    "description": "Model ini menganalisis arsitektur aplikasi cloud storage MEGA. Fokus utama adalah pada mekanisme End-to-End Encryption (E2EE) di mana proses enkripsi dan deskripsi file terjadi di sisi client menggunakan master key milik pengguna, sementara server hanya menyimpan file dalam bentuk ciphertext tanpa mengetahui isinya.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Angel Eodia"
+      },
+      {
+        "name": "Agung Adithya Bhaskara"
+      },
+      {
+        "name": "Vincencio Gabriel Frederio"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Data Flow Diagram (DFD) Arsitektur klien-server MEGA"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "N/A",
+    "threatTop": 0
+  }
+}
